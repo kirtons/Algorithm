@@ -29,6 +29,7 @@ public class Intersect {
             }
         }
         int[] result = list.stream().mapToInt(Integer::intValue).toArray();
+
         return result;
     }
 }
