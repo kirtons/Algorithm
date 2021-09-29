@@ -22,4 +22,10 @@ public class MaxProfitTest {
         int prices3[] = {7, 6, 4, 3, 1};
         assertEquals(0, MaxProfit.maxProfit(prices3));
     }
+
+    @Test
+    public void maxProfit2() {
+        int prices1[] = {7,1,5,3,6,4};
+        assertEquals(7,MaxProfit.maxProfit2(prices1));
+    }
 }
