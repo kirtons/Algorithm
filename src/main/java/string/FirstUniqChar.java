@@ -28,10 +28,4 @@ public class FirstUniqChar {
         return -1;
     }
 
-    public static void main(String[] args) {
-        String s = "loveleetcode";
-//        char[] chars = s.toCharArray();
-//        System.out.println(Arrays.toString(chars));
-        System.out.println(firstUniqChar(s));
-    }
 }
